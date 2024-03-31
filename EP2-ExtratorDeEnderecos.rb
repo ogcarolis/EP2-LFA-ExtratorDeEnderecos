@@ -96,12 +96,12 @@ texto = "Boa tarde! Eu moro na Av. Eng. Eusébio Stevaux, 823 - Santo Amaro, Sã
 puts "Exemplo 1: " + texto
 Extrator(texto)
 
-texto = "Rua do Estilo Barroco, 573, Apto 1 - Chácara Santo Antônio, São Paulo - SP, 04709-011"
+texto = "Praça da República, 123, Apartamento 2 - República, São Paulo - SP, 01045-001"
 
 puts "\nExemplo 2: " + texto
 Extrator(texto)
 
-texto = "Estou na rua george saulo 42" 
+texto = "Estou na rua Barão de Vitória 42" 
 
 puts "\nExemplo 3: " + texto
 Extrator(texto)
