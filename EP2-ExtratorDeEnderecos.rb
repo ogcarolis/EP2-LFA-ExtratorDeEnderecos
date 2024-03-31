@@ -22,8 +22,6 @@ def Extrator(texto)
     texto.sub!(/.*#{Regexp.quote(endereco)}/, "")
   end
   
-  puts texto
-  
   if end_obrigatorio
     puts 'Tipo: ' + end_obrigatorio[:tipo].capitalize
     puts 'Logradouro: ' + end_obrigatorio[:logradouro].split(/ |\_/).map(&:capitalize).join(" ")
